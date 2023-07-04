@@ -85,3 +85,20 @@ The components of a Google Cloud Platform (GCP) load balancer can vary depending
 
 These are the key components you will typically find in GCP load balancers. However, the specific configuration options and features may vary depending on the load balancer type and its capabilities.
 
+# Components of HTTPS load balancer:
+Ports supported: 80, 8080, 443
+
+![image](https://github.com/zero2heroeasy/GCP-Cloud/assets/138552899/641a351f-87d9-47b6-a7bb-56273f1ba2d3)
+
+# Components of TCP and SSL Proxy Load Balancer:
+Ports supported: 24, 443, 110, 143, 195, 443, 465, 587, 700, 993, 995, 1883, 5222
+
+![image](https://github.com/zero2heroeasy/GCP-Cloud/assets/138552899/6c725702-eae4-4819-aa07-69faca27c880)
+
+# Components of Network load balancer (Regional):
+Ports supported: All TCP and UDP ports.
+
+![image](https://github.com/zero2heroeasy/GCP-Cloud/assets/138552899/2e448471-c22c-4638-8fb7-2e1f18e1c7fb)
+
+If the backend type was Instance Group:
+![image](https://github.com/zero2heroeasy/GCP-Cloud/assets/138552899/69c2fa8a-da78-4f0e-b02d-904beac7b7ab)
