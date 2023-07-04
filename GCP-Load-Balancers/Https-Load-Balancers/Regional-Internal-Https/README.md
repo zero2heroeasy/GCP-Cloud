@@ -1,6 +1,6 @@
 # Regional Internal Application Load Balancer:
 
-Different ways to create an Regional Internal Application Load Balancer in GCP Cloud:
+Different ways to create a Regional Internal Application Load Balancer in GCP Cloud:
 
 - Using GCP Console
 - Using Gcloud Commands
