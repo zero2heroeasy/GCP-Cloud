@@ -1,6 +1,6 @@
 # Regional External Application Load Balancer:
 
-Different ways to create an Regional External Application Load Balancer in GCP Cloud:
+Different ways to create a Regional External Application Load Balancer in GCP Cloud:
 
 - Using GCP Console
 - Using Gcloud Commands
