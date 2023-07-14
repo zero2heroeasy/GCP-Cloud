@@ -1,10 +1,10 @@
 resource "google_compute_disk" "tf-disk" {
-  name  = "tf-disk"
+  name  = var.name
   description = "this disk is created from terraform script"
-  project = "terraform-training-392804"
-  zone = "us-east1-b"
+  project = var.project
+  zone = var.zone
   type  = "pd-ssd"
-  image = "centos-7-v20230711"
+  image = var.image
   size  = 40
   labels = {
     environment = "dev"
