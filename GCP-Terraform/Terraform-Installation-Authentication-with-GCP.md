@@ -18,11 +18,9 @@ Navigate below steps to install terraform on windows machine:
 
   Verify terraform verson from cmd > terraform version
 
-# Install VS as Code editor and enable hashicorp terraform extension
+# Authenticate GCP Cloud from Windows machine:
 
-# Authenticate GCP Cloud from local machine:
-
-**With Username and password**
+1.**With Username and password**
 
   **Step-1:** Run below command from powershell with administrator mode to Enable cloud sdk (gcloud cli):
 
@@ -33,6 +31,7 @@ Navigate below steps to install terraform on windows machine:
   Update gcloud sdk path in environment variables as like terraform path
   
   **Navigation:**
+  
   Search for "edit system environment variables" in local machine and navigate "Environment Variables ->  user variables -> new -> add  "variable name -> gcloud-cli, "variable value" -> "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin" and apply.
 
   From the VS terminal run below command to authenticate with username/password:
@@ -40,10 +39,17 @@ Navigate below steps to install terraform on windows machine:
   > gcloud auth application-default login
   
   It will open a pop up from browser to login with username and password for your cloud account. Approve it and you can now able to run terraform snippet to create resources on GCP cloud
-
-**With Service Account:**
+  
+  **Example:** 
+  Create a Cloud storage bucket with username & password authentication process
+  
+  Code: https://github.com/zero2heroeasy/GCP-Cloud/blob/main/GCP-Terraform/bucket-creation-with-username-password-authentication.tf
+  
+2.**With Service Account:**
 - Create a Service account on GCP Cloud Project
-- Create Credentials and update in terraform-code
+- Create new key and update in terraform-code
+
+  Code: https://github.com/zero2heroeasy/GCP-Cloud/blob/main/GCP-Terraform/bucket-creation-with-service-account-authentication.tf
 - Run Terraform plan & apply
 
 **References-links:**
