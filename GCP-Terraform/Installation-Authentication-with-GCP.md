@@ -42,6 +42,9 @@ Navigate below steps to install terraform on windows machine:
   It will open a pop up from browser to login with username and password for your cloud account. Approve it and you can now able to run terraform snippet to create resources on GCP cloud
 
 **With Service Account:**
+- Create a Service account on GCP Cloud Project
+- Create Credentials and update in terraform-code
+- Run Terraform plan & apply
 
 **References-links:**
 - https://cloud.google.com/sdk/docs/install#windows
