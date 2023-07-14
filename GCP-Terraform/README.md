@@ -1,4 +1,4 @@
-# Terraform Installation on Windows Machine
+# Terraform Installation & Authentication with GCP
 **Reference Video Link:**
 
 Navigate below steps to install terraform on windows machine:
