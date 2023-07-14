@@ -13,6 +13,6 @@ provider "google" {
 }
 ### create cloud storage bucket with username & password authentication process ###
 resource google_storage_bucket "GCS1" {
-  name = "bucket-from-terraform-username-password"
+  name = "bucket-creation-with-username-password-authentication"
   location = "us-east1"
 }
